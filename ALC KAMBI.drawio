@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="3">
+<mxfile host="app.diagrams.net" pages="4">
   <diagram name="System Context" id="1Wdmjc7SSXQp1soLkEpC">
     <mxGraphModel dx="1030" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -374,6 +374,88 @@
         </mxCell>
         <mxCell id="X5jR8OrenwigcUw69Sz9-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;verticalAlign=middle;" value="EXISTING" vertex="1">
           <mxGeometry height="20" width="60" x="970" y="409" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="AOD Integration KAMBI Isolated" id="5b5N7wtgtpnkqoFR12zx">
+    <mxGraphModel dx="2162" dy="1161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="APchOqLxcm7CC0cIxdSi-0" />
+        <mxCell id="APchOqLxcm7CC0cIxdSi-1" parent="APchOqLxcm7CC0cIxdSi-0" />
+        <mxCell id="APchOqLxcm7CC0cIxdSi-2" parent="APchOqLxcm7CC0cIxdSi-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);verticalAlign=top;align=left;sketch=1;curveFitting=1;jiggle=2;rounded=0;" value="Oracle EBS" vertex="1">
+          <mxGeometry height="369" width="660" x="1416" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="APchOqLxcm7CC0cIxdSi-3" parent="APchOqLxcm7CC0cIxdSi-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);verticalAlign=top;sketch=1;curveFitting=1;jiggle=2;rounded=0;" value="Integration Middleware" vertex="1">
+          <mxGeometry height="430" width="310" x="961" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="lSfczcIVhlILEac_g8jH-1" edge="1" parent="APchOqLxcm7CC0cIxdSi-1" source="lSfczcIVhlILEac_g8jH-7" style="edgeStyle=orthogonalEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#0050ef;strokeColor=#001DBC;html=1;fontStyle=1" target="APchOqLxcm7CC0cIxdSi-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lSfczcIVhlILEac_g8jH-2" connectable="0" parent="lSfczcIVhlILEac_g8jH-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1" value="GL INTEGRATION DATA" vertex="1">
+          <mxGeometry relative="1" x="-0.0406" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="APchOqLxcm7CC0cIxdSi-7" parent="APchOqLxcm7CC0cIxdSi-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;rounded=0;" value="**Kambi**&#xa;Sports Betting System" vertex="1">
+          <mxGeometry height="78" width="191" x="550" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="lSfczcIVhlILEac_g8jH-10" edge="1" parent="APchOqLxcm7CC0cIxdSi-1" source="APchOqLxcm7CC0cIxdSi-11" style="edgeStyle=orthogonalEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1;fillColor=#0050ef;strokeColor=#001DBC;" target="APchOqLxcm7CC0cIxdSi-13" value="NEW Kambi-&amp;gt;EBS integration">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="APchOqLxcm7CC0cIxdSi-11" parent="APchOqLxcm7CC0cIxdSi-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;rounded=0;" value="**DXP**&#xa;DXP Integration Services&#xa;Enterprise Integration Platform" vertex="1">
+          <mxGeometry height="102" width="234" x="999" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="lSfczcIVhlILEac_g8jH-6" edge="1" parent="APchOqLxcm7CC0cIxdSi-1" source="APchOqLxcm7CC0cIxdSi-12" style="edgeStyle=orthogonalEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="389.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSfczcIVhlILEac_g8jH-8" edge="1" parent="APchOqLxcm7CC0cIxdSi-1" source="APchOqLxcm7CC0cIxdSi-12" style="edgeStyle=orthogonalEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rounded=0;curved=1;dashed=1;strokeColor=#999999;" target="APchOqLxcm7CC0cIxdSi-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lSfczcIVhlILEac_g8jH-9" connectable="0" parent="lSfczcIVhlILEac_g8jH-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="decommission OPENBET-&amp;gt;EBS integration" vertex="1">
+          <mxGeometry relative="1" x="0.009" y="-7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="APchOqLxcm7CC0cIxdSi-12" parent="APchOqLxcm7CC0cIxdSi-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);sketch=1;curveFitting=1;jiggle=2;rounded=0;" value="**ODI**&#xa;Oracle Data Integrator/Oracle Analytics&#xa;Business Intelligence/ETL Platform" vertex="1">
+          <mxGeometry height="126" width="260" x="986" y="409" as="geometry" />
+        </mxCell>
+        <mxCell id="lSfczcIVhlILEac_g8jH-11" edge="1" parent="APchOqLxcm7CC0cIxdSi-1" source="APchOqLxcm7CC0cIxdSi-13" style="edgeStyle=orthogonalEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;rounded=0;curved=1;fontStyle=1;fillColor=#0050ef;strokeColor=#001DBC;" target="APchOqLxcm7CC0cIxdSi-14" value="NEW Kambi-&amp;gt;EBS Integration">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="APchOqLxcm7CC0cIxdSi-13" parent="APchOqLxcm7CC0cIxdSi-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;rounded=0;" value="**EBS FAH**&#xa;Financial Accounting Hub&#xa;Configurable bulk accounting data&#xa;" vertex="1">
+          <mxGeometry height="126" width="260" x="1441" y="623" as="geometry" />
+        </mxCell>
+        <mxCell id="APchOqLxcm7CC0cIxdSi-14" parent="APchOqLxcm7CC0cIxdSi-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;rounded=0;" value="**EBS GL**&#xa;General Ledger" vertex="1">
+          <mxGeometry height="78" width="170" x="1882" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="APchOqLxcm7CC0cIxdSi-23" parent="APchOqLxcm7CC0cIxdSi-1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" value="NEW" vertex="1">
+          <mxGeometry height="20" width="60" x="520" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="APchOqLxcm7CC0cIxdSi-24" parent="APchOqLxcm7CC0cIxdSi-1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;verticalAlign=middle;" value="EXISTING" vertex="1">
+          <mxGeometry height="20" width="60" x="986" y="623" as="geometry" />
+        </mxCell>
+        <mxCell id="APchOqLxcm7CC0cIxdSi-25" parent="APchOqLxcm7CC0cIxdSi-1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;verticalAlign=middle;fillColor=#d5e8d4;strokeColor=#82b366;" value="NEW" vertex="1">
+          <mxGeometry height="20" width="60" x="1425" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="APchOqLxcm7CC0cIxdSi-26" parent="APchOqLxcm7CC0cIxdSi-1" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;verticalAlign=middle;" value="EXISTING" vertex="1">
+          <mxGeometry height="20" width="60" x="970" y="409" as="geometry" />
+        </mxCell>
+        <mxCell id="lSfczcIVhlILEac_g8jH-0" edge="1" parent="APchOqLxcm7CC0cIxdSi-1" source="lSfczcIVhlILEac_g8jH-7" style="edgeStyle=orthogonalEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.414;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="APchOqLxcm7CC0cIxdSi-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lSfczcIVhlILEac_g8jH-3" connectable="0" parent="lSfczcIVhlILEac_g8jH-0" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontStyle=1" value="REPORTING DATA" vertex="1">
+          <mxGeometry relative="1" x="0.0844" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lSfczcIVhlILEac_g8jH-4" parent="APchOqLxcm7CC0cIxdSi-1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Consume BI Reports" vertex="1">
+          <mxGeometry height="60" width="30" x="1330" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="lSfczcIVhlILEac_g8jH-7" parent="APchOqLxcm7CC0cIxdSi-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;rounded=0;" value="Kambi API" vertex="1">
+          <mxGeometry height="40" width="81" x="730" y="564" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
