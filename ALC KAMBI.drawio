@@ -585,6 +585,12 @@
         <mxCell id="VmOPGQCylu-675Yxx3Za-79" edge="1" parent="1" source="VmOPGQCylu-675Yxx3Za-54" style="endArrow=none;strokeWidth=0.5;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" target="VmOPGQCylu-675Yxx3Za-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="VmOPGQCylu-675Yxx3Za-82" parent="1" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Artifact" vertex="1">
+          <mxGeometry height="20" width="59" x="20" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="VmOPGQCylu-675Yxx3Za-85" parent="1" style="rounded=0;absoluteArcSize=1;arcSize=7;whiteSpace=wrap;strokeWidth=0.5;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" value="Aspect" vertex="1">
+          <mxGeometry height="20" width="61" x="19" y="338" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
