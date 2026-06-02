@@ -1,0 +1,375 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="2">
+  <diagram name="Executive View" id="Q25zy48lsZs6qjt2TTz6">
+    <mxGraphModel dx="1288" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="et" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fillColor=none;strokeColor=none;" value="&lt;b style=&#39;font-size:18px&#39;&gt;AIOps Operational Architecture — Executive View&lt;/b&gt;&lt;br/&gt;&lt;i style=&#39;font-size:11px&#39;&gt;PeopleSoft on OCI  ·  Pipeline Flow  ·  Three Deployment Zones&lt;/i&gt;" vertex="1">
+          <mxGeometry height="50" width="900" x="20" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="es1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#37474F;fontColor=#FFFFFF;strokeColor=#263238;fontSize=14;fontStyle=1;arcSize=6;" value="COLLECT &amp;amp; OBSERVE" vertex="1">
+          <mxGeometry height="55" width="160" x="20" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_obs" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#BBDEFB;strokeColor=#1565C0;fontSize=12;fontStyle=1;arcSize=10;shadow=1;strokeWidth=2;" value="&lt;b&gt;Observability&lt;/b&gt;&lt;br/&gt;&lt;font style=&#39;font-size:9px&#39;&gt;ADR-OBS-001&lt;/font&gt;&lt;br/&gt;&lt;font style=&#39;font-size:8px&#39;&gt;APM · OEM · Network Viz · AWR&lt;/font&gt;" vertex="1">
+          <mxGeometry height="85" width="250" x="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n101" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E6A44E;fontSize=7;fontStyle=1;arcSize=12;" value="OCI" vertex="1">
+          <mxGeometry height="16" width="32" x="414" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_log" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=12;fontStyle=1;arcSize=10;shadow=1;strokeWidth=2;" value="&lt;b&gt;Log Aggregation&lt;/b&gt;&lt;br/&gt;&lt;font style=&#39;font-size:9px&#39;&gt;ADR-LOG-001&lt;/font&gt;&lt;br/&gt;&lt;font style=&#39;font-size:8px&#39;&gt;Fluentd · Connector Hub · Kafka&lt;/font&gt;" vertex="1">
+          <mxGeometry height="85" width="250" x="470" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n102" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E6A44E;fontSize=7;fontStyle=1;arcSize=12;" value="OCI" vertex="1">
+          <mxGeometry height="16" width="32" x="684" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="es2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#37474F;fontColor=#FFFFFF;strokeColor=#263238;fontSize=14;fontStyle=1;arcSize=6;" value="STORE &amp;amp; INDEX" vertex="1">
+          <mxGeometry height="55" width="160" x="20" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_os" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=12;fontStyle=1;arcSize=10;shadow=1;strokeWidth=2;" value="&lt;b&gt;OpenSearch Cluster&lt;/b&gt;&lt;br/&gt;&lt;font style=&#39;font-size:9px&#39;&gt;Shared: OBS · LOG · KM · ALT&lt;/font&gt;&lt;br/&gt;&lt;font style=&#39;font-size:8px&#39;&gt;Logs · AWR · Vector · Alerting&lt;/font&gt;" vertex="1">
+          <mxGeometry height="85" width="250" x="200" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="n103" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E6A44E;fontSize=7;fontStyle=1;arcSize=12;" value="OCI" vertex="1">
+          <mxGeometry height="16" width="32" x="414" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_km" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE0B2;strokeColor=#E65100;fontSize=12;fontStyle=1;arcSize=10;shadow=1;strokeWidth=2;" value="&lt;b&gt;Knowledge Mgmt&lt;/b&gt;&lt;br/&gt;&lt;font style=&#39;font-size:9px&#39;&gt;ADR-KM-001&lt;/font&gt;&lt;br/&gt;&lt;font style=&#39;font-size:8px&#39;&gt;Object Storage · GenAI KB · RAG&lt;/font&gt;" vertex="1">
+          <mxGeometry height="85" width="250" x="470" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="n104" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E6A44E;fontSize=7;fontStyle=1;arcSize=12;" value="OCI" vertex="1">
+          <mxGeometry height="16" width="32" x="684" y="204" as="geometry" />
+        </mxCell>
+        <mxCell id="es3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#37474F;fontColor=#FFFFFF;strokeColor=#263238;fontSize=14;fontStyle=1;arcSize=6;" value="DETECT &amp;amp; CORRELATE" vertex="1">
+          <mxGeometry height="55" width="160" x="20" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_alt" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CFD8DC;strokeColor=#455A64;fontSize=12;fontStyle=1;arcSize=10;shadow=1;strokeWidth=2;" value="&lt;b&gt;Alerting&lt;/b&gt;&lt;br/&gt;&lt;font style=&#39;font-size:9px&#39;&gt;ADR-ALT-001&lt;/font&gt;&lt;br/&gt;&lt;font style=&#39;font-size:8px&#39;&gt;OCI Alarms · Notifications · OEM Rules&lt;/font&gt;" vertex="1">
+          <mxGeometry height="85" width="250" x="200" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="n105" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E6A44E;fontSize=7;fontStyle=1;arcSize=12;" value="OCI" vertex="1">
+          <mxGeometry height="16" width="32" x="414" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_evm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1BEE7;strokeColor=#6A1B9A;fontSize=12;fontStyle=1;arcSize=10;shadow=1;strokeWidth=2;" value="&lt;b&gt;Event Management&lt;/b&gt;&lt;br/&gt;&lt;font style=&#39;font-size:9px&#39;&gt;ADR-EVM-001&lt;/font&gt;&lt;br/&gt;&lt;font style=&#39;font-size:8px&#39;&gt;EDA · HCC Dashboard&lt;/font&gt;" vertex="1">
+          <mxGeometry height="85" width="250" x="470" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="n106" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#5B8DB8;fontSize=7;fontStyle=1;arcSize=12;" value="IBM" vertex="1">
+          <mxGeometry height="16" width="32" x="684" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="es4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#37474F;fontColor=#FFFFFF;strokeColor=#263238;fontSize=14;fontStyle=1;arcSize=6;" value="DECIDE &amp;amp; ACT" vertex="1">
+          <mxGeometry height="55" width="160" x="20" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_agt" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C5CAE9;strokeColor=#283593;fontSize=12;fontStyle=1;arcSize=10;shadow=1;strokeWidth=2;" value="&lt;b&gt;Agentic AI&lt;/b&gt;&lt;br/&gt;&lt;font style=&#39;font-size:9px&#39;&gt;ADR-AGT-001&lt;/font&gt;&lt;br/&gt;&lt;font style=&#39;font-size:8px&#39;&gt;Agent Core · LangGraph · GenAI Runtime&lt;/font&gt;" vertex="1">
+          <mxGeometry height="85" width="250" x="200" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="n107" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#5B8DB8;fontSize=7;fontStyle=1;arcSize=12;" value="IBM" vertex="1">
+          <mxGeometry height="16" width="32" x="414" y="444" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_aut" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2DFDB;strokeColor=#00695C;fontSize=12;fontStyle=1;arcSize=10;shadow=1;strokeWidth=2;" value="&lt;b&gt;Automation&lt;/b&gt;&lt;br/&gt;&lt;font style=&#39;font-size:9px&#39;&gt;ADR-AUT-001&lt;/font&gt;&lt;br/&gt;&lt;font style=&#39;font-size:8px&#39;&gt;Ansible · Functions · Playwright · DI&lt;/font&gt;" vertex="1">
+          <mxGeometry height="85" width="250" x="470" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="n108" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E6A44E;fontSize=7;fontStyle=1;arcSize=12;" value="OCI" vertex="1">
+          <mxGeometry height="16" width="32" x="650" y="444" as="geometry" />
+        </mxCell>
+        <mxCell id="n109" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#5B8DB8;fontSize=7;fontStyle=1;arcSize=12;" value="IBM" vertex="1">
+          <mxGeometry height="16" width="32" x="684" y="444" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_cop" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C5CAE9;strokeColor=#283593;fontSize=12;fontStyle=1;arcSize=10;shadow=1;strokeWidth=2;" value="&lt;b&gt;Operator Chat&lt;/b&gt;&lt;br/&gt;&lt;font style=&#39;font-size:9px&#39;&gt;Copilot Studio&lt;/font&gt;&lt;br/&gt;&lt;font style=&#39;font-size:8px&#39;&gt;Teams · Power BI&lt;/font&gt;" vertex="1">
+          <mxGeometry height="85" width="180" x="740" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="n110" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#999999;fontSize=7;fontStyle=1;arcSize=12;" value="SaaS" vertex="1">
+          <mxGeometry height="16" width="32" x="880" y="444" as="geometry" />
+        </mxCell>
+        <mxCell id="es5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#37474F;fontColor=#FFFFFF;strokeColor=#263238;fontSize=14;fontStyle=1;arcSize=6;" value="DELIVER &amp;amp; INTERFACE" vertex="1">
+          <mxGeometry height="55" width="160" x="20" y="575" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_pd" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CFD8DC;strokeColor=#455A64;fontSize=12;fontStyle=1;arcSize=10;shadow=1;strokeWidth=2;" value="&lt;b&gt;Incident Mgmt&lt;/b&gt;&lt;br/&gt;&lt;font style=&#39;font-size:9px&#39;&gt;PagerDuty&lt;/font&gt;&lt;br/&gt;&lt;font style=&#39;font-size:8px&#39;&gt;On-call · Escalation · Lifecycle&lt;/font&gt;" vertex="1">
+          <mxGeometry height="85" width="200" x="200" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="n111" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#999999;fontSize=7;fontStyle=1;arcSize=12;" value="SaaS" vertex="1">
+          <mxGeometry height="16" width="32" x="360" y="564" as="geometry" />
+        </mxCell>
+        <mxCell id="ex_siem" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#888888;fontSize=12;fontStyle=1;arcSize=10;shadow=1;strokeWidth=2;" value="&lt;b&gt;Client SIEM&lt;/b&gt;&lt;br/&gt;&lt;font style=&#39;font-size:8px&#39;&gt;Log forwarding target&lt;/font&gt;" vertex="1">
+          <mxGeometry height="85" width="180" x="420" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="n112" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#999999;fontSize=7;fontStyle=1;arcSize=12;" value="SaaS" vertex="1">
+          <mxGeometry height="16" width="32" x="560" y="564" as="geometry" />
+        </mxCell>
+        <mxCell id="n113" edge="1" parent="1" source="ex_obs" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1565C0;strokeWidth=2;fontSize=10;labelBackgroundColor=#FFFFFF;fontColor=#1565C0;jumpStyle=arc;jumpSize=10;" target="ex_os" value="Logs + AWR">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n114" edge="1" parent="1" source="ex_log" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1565C0;strokeWidth=2;fontSize=10;labelBackgroundColor=#FFFFFF;fontColor=#1565C0;jumpStyle=arc;jumpSize=10;" target="ex_os" value="Logs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n115" edge="1" parent="1" source="ex_os" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#455A64;strokeWidth=1.5;fontSize=10;labelBackgroundColor=#FFFFFF;fontColor=#455A64;jumpStyle=arc;jumpSize=10;" target="ex_alt" value="Metrics &amp;amp;amp; Log Alerts">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n116" edge="1" parent="1" source="ex_alt" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#455A64;strokeWidth=1.5;fontSize=10;labelBackgroundColor=#FFFFFF;fontColor=#455A64;jumpStyle=arc;jumpSize=10;" target="ex_evm" value="Events">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n117" edge="1" parent="1" source="ex_km" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#283593;strokeWidth=2;dashed=1;dashPattern=8 4;fontSize=10;labelBackgroundColor=#FFFFFF;fontColor=#283593;jumpStyle=arc;jumpSize=10;" target="ex_agt" value="RAG">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n118" edge="1" parent="1" source="ex_evm" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#455A64;strokeWidth=1.5;fontSize=10;labelBackgroundColor=#FFFFFF;fontColor=#455A64;jumpStyle=arc;jumpSize=10;" target="ex_aut" value="Remediation">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n119" edge="1" parent="1" source="ex_evm" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#283593;strokeWidth=2;dashed=1;dashPattern=8 4;fontSize=10;labelBackgroundColor=#FFFFFF;fontColor=#283593;jumpStyle=arc;jumpSize=10;" target="ex_agt" value="Context">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n120" edge="1" parent="1" source="ex_alt" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#455A64;strokeWidth=1.5;fontSize=10;labelBackgroundColor=#FFFFFF;fontColor=#455A64;jumpStyle=arc;jumpSize=10;" target="ex_pd" value="Incidents">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n121" edge="1" parent="1" source="ex_agt" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#283593;strokeWidth=2;dashed=1;dashPattern=8 4;fontSize=10;labelBackgroundColor=#FFFFFF;fontColor=#283593;jumpStyle=arc;jumpSize=10;" target="ex_cop" value="Chat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n122" edge="1" parent="1" source="ex_log" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1565C0;strokeWidth=2;fontSize=10;labelBackgroundColor=#FFFFFF;fontColor=#1565C0;jumpStyle=arc;jumpSize=10;" target="ex_siem" value="Kafka Stream">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n123" parent="1" style="text;html=1;align=left;fontSize=11;fontStyle=1;fillColor=none;strokeColor=none;" value="&lt;b&gt;Legend&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="80" x="20" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="n124" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E6A44E;fontSize=9;fontStyle=1;arcSize=8;" value="OCI Canada" vertex="1">
+          <mxGeometry height="24" width="80" x="20" y="728" as="geometry" />
+        </mxCell>
+        <mxCell id="n125" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#5B8DB8;fontSize=9;fontStyle=1;arcSize=8;" value="IBM Cloud" vertex="1">
+          <mxGeometry height="24" width="80" x="110" y="728" as="geometry" />
+        </mxCell>
+        <mxCell id="n126" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#999999;fontSize=9;fontStyle=1;arcSize=8;" value="External SaaS" vertex="1">
+          <mxGeometry height="24" width="90" x="200" y="728" as="geometry" />
+        </mxCell>
+        <mxCell id="n127" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE0B2;strokeColor=#E65100;fontSize=12;arcSize=8;shadow=1;strokeWidth=2;dashed=1;dashPattern=8 4;obstacle=1;" value="Not in Canada" vertex="1">
+          <mxGeometry height="24" width="100" x="310" y="728" as="geometry" />
+        </mxCell>
+        <mxCell id="n128" parent="1" style="text;html=1;align=left;fontSize=9;fillColor=none;strokeColor=none;" value="&lt;font color=&#39;#1565C0&#39;&gt;━━&lt;/font&gt; Data Flow&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&#39;#455A64&#39;&gt;━━&lt;/font&gt; Event/Control&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&#39;#283593&#39;&gt;┅┅&lt;/font&gt; Agent/AI&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&#39;#E65100&#39;&gt;┅┅&lt;/font&gt; Cross-Region" vertex="1">
+          <mxGeometry height="24" width="400" x="430" y="728" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Detailed Architecture" id="JwGFkZZIayGhjDiFECJW">
+    <mxGraphModel dx="2289" dy="1384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1650" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WHBzMxIpPxeD9CgPIDpe-1" edge="1" parent="1" source="c_objstore" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1565C0;strokeWidth=2;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#1565C0;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c_genaikb" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="708" as="sourcePoint" />
+            <mxPoint x="745" y="994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ch0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#37474F;fontColor=#FFFFFF;strokeColor=#263238;fontSize=16;fontStyle=1;arcSize=6;" value="COLLECT &amp;amp; OBSERVE" vertex="1">
+          <mxGeometry height="48" width="370" x="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ch1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#37474F;fontColor=#FFFFFF;strokeColor=#263238;fontSize=16;fontStyle=1;arcSize=6;" value="STORE &amp;amp; INDEX" vertex="1">
+          <mxGeometry height="48" width="370" x="560" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ch2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#37474F;fontColor=#FFFFFF;strokeColor=#263238;fontSize=16;fontStyle=1;arcSize=6;" value="DETECT &amp;amp; CORRELATE" vertex="1">
+          <mxGeometry height="48" width="390" x="960" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ch3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#37474F;fontColor=#FFFFFF;strokeColor=#263238;fontSize=16;fontStyle=1;arcSize=6;" value="DECIDE &amp;amp; ACT" vertex="1">
+          <mxGeometry height="48" width="410" x="1380" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ch4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#37474F;fontColor=#FFFFFF;strokeColor=#263238;fontSize=16;fontStyle=1;arcSize=6;" value="DELIVER &amp;amp; INTERFACE" vertex="1">
+          <mxGeometry height="48" width="380" x="1820" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sl_oci" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E6A44E;fontSize=16;fontStyle=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=12;container=0;collapsible=0;arcSize=4;dashed=0;movable=1;resizable=1;" value="OCI — Canada Region" vertex="1">
+          <mxGeometry height="580" width="2180" x="20" y="366" as="geometry" />
+        </mxCell>
+        <mxCell id="sl_ibm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#5B8DB8;fontSize=16;fontStyle=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=12;container=0;collapsible=0;arcSize=4;dashed=0;movable=1;resizable=1;" value="IBM Cloud" vertex="1">
+          <mxGeometry height="386" width="2180" x="20" y="954" as="geometry" />
+        </mxCell>
+        <mxCell id="sl_ext" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#888888;fontSize=16;fontStyle=1;verticalAlign=top;align=left;spacingTop=8;spacingLeft=12;container=0;collapsible=0;arcSize=4;dashed=0;movable=1;resizable=1;" value="External SaaS / Cloud" vertex="1">
+          <mxGeometry height="220" width="2180" x="20" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="n129" edge="1" parent="1" source="c_fluentd" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1565C0;strokeWidth=2;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#1565C0;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c_os_logs" value="Logs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n130" edge="1" parent="1" source="c_connhub" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1565C0;strokeWidth=2;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#1565C0;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.8;entryDx=0;entryDy=0;" target="c_os_logs" value="OCI Logs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n131" edge="1" parent="1" source="c_oem" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1565C0;strokeWidth=2;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#1565C0;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;" target="c_os_logs" value="AWR Offload">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n132" edge="1" parent="1" source="c_apm" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1565C0;strokeWidth=2;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#1565C0;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.1;entryDx=0;entryDy=0;" target="c_os_logs" value="APM Traces">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n133" edge="1" parent="1" source="c_objstore" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1565C0;strokeWidth=2;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#1565C0;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c_genaikb" value="Source Docs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n134" edge="1" parent="1" source="c_genaikb" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1565C0;strokeWidth=2;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#1565C0;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="c_os_vec" value="Embeddings">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n135" edge="1" parent="1" source="c_genaikb" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1565C0;strokeWidth=2;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#1565C0;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c_agentcore_rag" value="Source Docs (Canada path)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n136" edge="1" parent="1" source="c_agentcore_rag" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#283593;strokeWidth=2;dashed=1;dashPattern=8 4;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#283593;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="c_os_vec" value="Fallback Embeddings">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n137" edge="1" parent="1" source="c_os_alert" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#455A64;strokeWidth=1.5;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#455A64;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c_alarms" value="Alert Events">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n138" edge="1" parent="1" source="c_apm" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#455A64;strokeWidth=1.5;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#455A64;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.2;entryDx=0;entryDy=0;" target="c_alarms" value="APM Metrics">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n139" edge="1" parent="1" source="c_alarms" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#455A64;strokeWidth=1.5;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#455A64;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c_notif" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n140" edge="1" parent="1" source="c_oemalert" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#455A64;strokeWidth=1.5;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#455A64;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c_eda" value="PS Alerts">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n141" edge="1" parent="1" source="c_alarms" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#455A64;strokeWidth=1.5;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#455A64;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.8;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c_eda" value="Events">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n142" edge="1" parent="1" source="c_eda" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#455A64;strokeWidth=1.5;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#455A64;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.3;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c_ansible" value="Playbook Trigger">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n143" edge="1" parent="1" source="c_eda" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#455A64;strokeWidth=1.5;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#455A64;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c_ocifunc" value="Serverless Trigger">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n144" edge="1" parent="1" source="c_eda" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#455A64;strokeWidth=1.5;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#455A64;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c_hcc_evm" value="Event Feed">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n145" edge="1" parent="1" source="c_agentcore" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#283593;strokeWidth=2;dashed=1;dashPattern=8 4;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#283593;jumpStyle=arc;jumpSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="c_os_vec" value="RAG Query">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n146" edge="1" parent="1" source="c_agentcore" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E65100;strokeWidth=2;dashed=1;dashPattern=5 5;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#E65100;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="c_ocigenai" value="Agent Runtime">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n147" edge="1" parent="1" source="c_agentcore" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#283593;strokeWidth=2;dashed=1;dashPattern=8 4;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#283593;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c_ansible" value="Agent Actions">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n148" edge="1" parent="1" source="c_notif" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#455A64;strokeWidth=1.5;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#455A64;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c_pd" value="Notify">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n149" edge="1" parent="1" source="c_hcc_evm" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#455A64;strokeWidth=1.5;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#455A64;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.8;entryDx=0;entryDy=0;" target="c_pd" value="Incidents">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n150" edge="1" parent="1" source="c_agentcore" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#283593;strokeWidth=2;dashed=1;dashPattern=8 4;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#283593;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="c_copilot" value="Chat / UI">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n151" edge="1" parent="1" source="c_kafka" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1565C0;strokeWidth=2;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#1565C0;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c_siem" value="Kafka Stream">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n152" edge="1" parent="1" source="c_ocidi" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#455A64;strokeWidth=1.5;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#455A64;jumpStyle=arc;jumpSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c_blueprism" value="Replaces RPA data movement">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n153" edge="1" parent="1" source="c_os_logs" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1565C0;strokeWidth=2;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#1565C0;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.2;entryDx=0;entryDy=0;" target="c_grafana" value="Telemetry Dashboards">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n154" edge="1" parent="1" source="c_agentcore" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#283593;strokeWidth=2;dashed=1;dashPattern=8 4;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#283593;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="c_grafana" value="Agent Core Output">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n155" edge="1" parent="1" source="c_apm" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1565C0;strokeWidth=2;fontSize=16;labelBackgroundColor=#FFFFFF;fontColor=#1565C0;jumpStyle=arc;jumpSize=10;exitX=1;exitY=0.2;exitDx=0;exitDy=0;entryX=0;entryY=0.8;entryDx=0;entryDy=0;" target="c_grafana" value="APM Metrics">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_apm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;OCI APM&lt;/b&gt;&lt;br&gt;&lt;font&gt;App perf, RUM, synthetic, SQL trace&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="250" x="175" y="406" as="geometry" />
+        </mxCell>
+        <mxCell id="c_oem" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;OEM Cloud Control&lt;/b&gt;&lt;br&gt;&lt;font&gt;PS domain admin, scheduler, compliance&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="250" x="175" y="484" as="geometry" />
+        </mxCell>
+        <mxCell id="c_netviz" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;OCI Network Visualizer&lt;/b&gt;&lt;br&gt;&lt;font&gt;Network path &amp;amp; flow analysis&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="250" x="175" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="c_fluentd" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;Fluentd / Filebeat&lt;/b&gt;&lt;br&gt;&lt;font&gt;Log collection agents — all hosts&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="250" x="175" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="c_connhub" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;OCI Connector Hub&lt;/b&gt;&lt;br&gt;&lt;font&gt;OCI infra/platform log forwarding&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="250" x="175" y="718" as="geometry" />
+        </mxCell>
+        <mxCell id="c_os_logs" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;OpenSearch — Logs &amp;amp; AWR&lt;/b&gt;&lt;br&gt;&lt;font&gt;Operational logs + AWR offload + Kibana&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="285" x="575" y="406" as="geometry" />
+        </mxCell>
+        <mxCell id="c_os_vec" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;OpenSearch — Vector Store&lt;/b&gt;&lt;br&gt;&lt;font&gt;Runbook/SOP embeddings for agent RAG&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="285" x="575" y="484" as="geometry" />
+        </mxCell>
+        <mxCell id="c_os_alert" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;OpenSearch — Alerting Plugin&lt;/b&gt;&lt;br&gt;&lt;font&gt;Error patterns &amp;amp; anomalous volume&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="285" x="575" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="c_objstore" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;OCI Object Storage&lt;/b&gt;&lt;br&gt;&lt;font&gt;PDFs, runbooks, curated knowledge&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="250" x="575" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="c_kafka" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;OCI Streaming (Kafka)&lt;/b&gt;&lt;br&gt;&lt;font&gt;Parallel log forwarding to SIEM&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="250" x="575" y="718" as="geometry" />
+        </mxCell>
+        <mxCell id="c_agentcore_rag" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;IBM Agent Core (RAG Fallback)&lt;/b&gt;&lt;br&gt;&lt;font&gt;Canada-resident RAG ingest/embed via Agent Core — replaces OCI GenAI KB if unavailable in-region&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="340" x="575" y="994" as="geometry" />
+        </mxCell>
+        <mxCell id="c_alarms" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;OCI Monitoring Alarms&lt;/b&gt;&lt;br&gt;&lt;font&gt;Threshold-based infra &amp;amp; APM alerts&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="250" x="975" y="406" as="geometry" />
+        </mxCell>
+        <mxCell id="c_notif" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;OCI Notifications&lt;/b&gt;&lt;br&gt;&lt;font&gt;Email, SMS, Slack, PD, HTTPS&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="250" x="975" y="484" as="geometry" />
+        </mxCell>
+        <mxCell id="c_oemalert" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;OEM CC Notification Rules&lt;/b&gt;&lt;br&gt;&lt;font&gt;PS-specific alerts — lift-and-shift&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="250" x="975" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="c_eda" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;Event-Driven Ansible (EDA)&lt;/b&gt;&lt;br&gt;&lt;font&gt;Correlation, enrichment, routing — YAML rulebooks&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="305" x="975" y="994" as="geometry" />
+        </mxCell>
+        <mxCell id="c_hcc_evm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;HCC Event Dashboard&lt;/b&gt;&lt;br&gt;&lt;font&gt;Topology enrichment, PD Backstage plugin&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="305" x="975" y="1072" as="geometry" />
+        </mxCell>
+        <mxCell id="c_ocifunc" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;OCI Functions&lt;/b&gt;&lt;br&gt;&lt;font&gt;Serverless event-driven automation&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="250" x="1395" y="406" as="geometry" />
+        </mxCell>
+        <mxCell id="c_ocidi" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;OCI Data Integration&lt;/b&gt;&lt;br&gt;&lt;font&gt;Data pipelines replacing RPA&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="250" x="1395" y="484" as="geometry" />
+        </mxCell>
+        <mxCell id="c_playwright" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;Playwright&lt;/b&gt;&lt;br&gt;&lt;font&gt;Headless UI automation (PS residual)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="250" x="1395" y="562" as="geometry" />
+        </mxCell>
+        <mxCell id="c_ocigenai" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE0B2;strokeColor=#E65100;fontSize=16;arcSize=8;shadow=1;strokeWidth=2;dashed=1;dashPattern=8 4;obstacle=1;" value="&lt;b&gt;OCI Enterprise AI (GenAI Agents)&lt;/b&gt;&lt;br&gt;&lt;font&gt;Managed runtime, governance — ⚠ NOT in CA&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="320" x="1395" y="718" as="geometry" />
+        </mxCell>
+        <mxCell id="c_agentcore" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;IBM Agent Core&lt;/b&gt;&lt;br&gt;&lt;font&gt;LangGraph orchestration · ContextForgeMCP&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="310" x="1395" y="994" as="geometry" />
+        </mxCell>
+        <mxCell id="c_ansible" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;Ansible Automation Platform&lt;/b&gt;&lt;br&gt;&lt;font&gt;Day 2 infra &amp;amp; app ops, batch remediation&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="310" x="1395" y="1072" as="geometry" />
+        </mxCell>
+        <mxCell id="c_blueprism" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;BluePrism RPA&lt;/b&gt;&lt;br&gt;&lt;font&gt;Existing RPA workflows&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="250" x="1395" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="c_hcc_aut" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;HCC / Backstage&lt;/b&gt;&lt;br&gt;&lt;font&gt;Self-service Day 2 ops portal&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="250" x="1395" y="1228" as="geometry" />
+        </mxCell>
+        <mxCell id="c_grafana" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;Grafana&lt;/b&gt;&lt;br&gt;&lt;font&gt;Single pane of glass — telemetry dashboards, Agent Core output, cross-domain visibility&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="340" x="1835" y="994" as="geometry" />
+        </mxCell>
+        <mxCell id="c_copilot" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;Microsoft Copilot Studio&lt;/b&gt;&lt;br&gt;&lt;font&gt;Teams-native chat · Power BI&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="250" x="1395" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="c_pd" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;PagerDuty&lt;/b&gt;&lt;br&gt;&lt;font&gt;On-call, escalation, incident lifecycle&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="250" x="1835" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="c_siem" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="&lt;b&gt;Client SIEM&lt;/b&gt;&lt;br&gt;&lt;font&gt;Log forwarding destination&lt;/font&gt;" vertex="1">
+          <mxGeometry height="68" width="250" x="1835" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="n156" parent="1" style="text;html=1;align=left;fontSize=16;fontStyle=1;fillColor=none;strokeColor=none;" value="&lt;b&gt;Legend&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="80" x="40" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="n157" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="Available in Canada" vertex="1">
+          <mxGeometry height="38" width="150" x="40" y="1288" as="geometry" />
+        </mxCell>
+        <mxCell id="n158" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE0B2;strokeColor=#E65100;fontSize=16;arcSize=8;shadow=1;strokeWidth=2;dashed=1;dashPattern=8 4;obstacle=1;" value="NOT in Canada Currenty" vertex="1">
+          <mxGeometry height="38" width="250" x="205" y="1288" as="geometry" />
+        </mxCell>
+        <mxCell id="n159" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#2E7D32;fontSize=16;arcSize=8;shadow=1;strokeWidth=1.5;obstacle=1;" value="Shared Component (OpenSearch)" vertex="1">
+          <mxGeometry height="38" width="200" x="470" y="1288" as="geometry" />
+        </mxCell>
+        <mxCell id="n160" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E6A44E;fontSize=16;fontStyle=1;arcSize=8;" value="OCI Canada" vertex="1">
+          <mxGeometry height="38" width="90" x="700" y="1288" as="geometry" />
+        </mxCell>
+        <mxCell id="n161" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3F2FD;strokeColor=#5B8DB8;fontSize=16;fontStyle=1;arcSize=8;" value="IBM Cloud" vertex="1">
+          <mxGeometry height="38" width="80" x="800" y="1288" as="geometry" />
+        </mxCell>
+        <mxCell id="n162" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#888888;fontSize=16;fontStyle=1;arcSize=8;" value="External&amp;nbsp;" vertex="1">
+          <mxGeometry height="38" width="90" x="890" y="1288" as="geometry" />
+        </mxCell>
+        <mxCell id="n163" parent="1" style="text;html=1;align=left;fontSize=16;fillColor=none;strokeColor=none;" value="&lt;font color=&quot;#1565C0&quot;&gt;━━&lt;/font&gt; Data Flow&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#455A64&quot;&gt;━━&lt;/font&gt; Event / Control&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#283593&quot;&gt;┅┅&lt;/font&gt; Agent / AI&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font color=&quot;#E65100&quot;&gt;┅┅&lt;/font&gt; Cross-Region" vertex="1">
+          <mxGeometry height="26" width="500" x="1010" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="c_genaikb" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE0B2;strokeColor=#E65100;fontSize=16;arcSize=8;shadow=1;strokeWidth=2;dashed=1;dashPattern=8 4;obstacle=1;" value="&lt;b&gt;OCI GenAI Agents KB&lt;/b&gt;&lt;br&gt;&lt;font&gt;Managed RAG ingest/chunk/embed — ⚠ NOT in CA&lt;/font&gt;" vertex="1">
+          <mxGeometry height="85" width="250" x="590" y="825" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
