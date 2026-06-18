@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" pages="5">
   <diagram name="System Context" id="1Wdmjc7SSXQp1soLkEpC">
-    <mxGraphModel dx="2054" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1222" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,13 +8,10 @@
           <mxGeometry height="129" width="340" x="1085" y="615" as="geometry" />
         </mxCell>
         <mxCell id="zwozX5bkLICRDyJ4iEgT-7" parent="zwozX5bkLICRDyJ4iEgT-6" style="whiteSpace=wrap;strokeWidth=2;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" value="Financial Accounting Hub" vertex="1">
-          <mxGeometry height="54" width="62.27272727272728" x="77.27272727272728" y="46" as="geometry" />
+          <mxGeometry height="54" width="72.73" x="77.27" y="46" as="geometry" />
         </mxCell>
         <mxCell id="zwozX5bkLICRDyJ4iEgT-8" parent="zwozX5bkLICRDyJ4iEgT-6" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="GL" vertex="1">
-          <mxGeometry height="54" width="35.909090909090914" x="151.36363636363637" y="46" as="geometry" />
-        </mxCell>
-        <mxCell id="zwozX5bkLICRDyJ4iEgT-9" parent="zwozX5bkLICRDyJ4iEgT-6" style="whiteSpace=wrap;strokeWidth=2;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" value="Integrated SOA Gateway" vertex="1">
-          <mxGeometry height="54" width="59.545454545454554" x="200.00000000000003" y="46" as="geometry" />
+          <mxGeometry height="54" width="68.64" x="185" y="46" as="geometry" />
         </mxCell>
         <mxCell id="zwozX5bkLICRDyJ4iEgT-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;rounded=1;" value="Enterprise Systems" vertex="1">
           <mxGeometry height="436" width="201" x="799" y="214" as="geometry" />
@@ -111,7 +108,7 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zwozX5bkLICRDyJ4iEgT-21" edge="1" parent="1" source="zwozX5bkLICRDyJ4iEgT-13" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.32;entryY=0.99;rounded=0;" target="zwozX5bkLICRDyJ4iEgT-16" value="Commissions Data">
+        <mxCell id="zwozX5bkLICRDyJ4iEgT-21" edge="1" parent="1" source="zwozX5bkLICRDyJ4iEgT-13" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.32;entryY=0.99;rounded=0;" target="zwozX5bkLICRDyJ4iEgT-16" value="Commissions/SST Data">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1016" y="588" />
