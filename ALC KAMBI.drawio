@@ -1035,12 +1035,6 @@
         <mxCell id="uOU17hhnx9tpqHfgKeHr-8" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;boundedLbl=1;fontSize=8;" value="Retail Msg. Structure" vertex="1">
           <mxGeometry height="55" width="60" x="520" y="467.5" as="geometry" />
         </mxCell>
-        <mxCell id="uOU17hhnx9tpqHfgKeHr-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="530" y="520" as="sourcePoint" />
-            <mxPoint x="580" y="470" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
